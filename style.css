@@ -1,13 +1,52 @@
-/* Header 1 Styling */
+/* Header Styling 
+------------------------------------------------- */
 
-h1{
+#navHeaderTitle{
     font-size: 1.75rem;
+    margin-left: 3rem;
+    padding: 1rem 0;
 }
 
 h2{
     font-size: 1.50rem;
 }
 
+/* About & Contact Me card styles 
+------------------------------------------------- */
+
+#aboutMeContainer, #contactMeContainer {
+    width: 65%;
+}
+
+#aboutMeCard, #contactMeCard{
+  margin: 3rem 0 0 4rem;
+}
+
+/* About Me image 
+------------------------------------------------- */
+
+#aboutMeImage {
+    float: left;
+    margin: 0.2rem 1rem 0 0; 
+    width: 50%;
+
+}
+
+/* Portfolio container
+------------------------------------------------- */
+#portfolioContainer{
+    background-color:green;
+    width: 65%;
+    margin: 3rem 0 5rem 4rem;    
+}
+
+/* Portfolio images */
+
+.portfolioImages div{
+    height: 60px;
+    background-color: red;
+    margin-top: 30%;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -30,3 +69,58 @@ html {
     text-align: center;
     font-size: 0.75rem;
   }
+
+  
+
+
+/* Styles on screens less than 768px -------------------------------------------------- */
+
+  @media screen and (max-width: 768px) {
+
+    /* Header Title style */
+
+    #navHeaderTitle{
+        font-size: 1.75rem;
+        margin-left: 1rem;
+        padding: 1rem 0;
+    }
+
+    /* About & Contact Me styles */
+
+    #aboutMeContainer, #contactMeContainer {
+        width: 100%;
+      }
+
+      #aboutMeCard, #contactMeCard { 
+          margin: 3rem 2rem 0 2rem;
+      } 
+      
+    /* Portfolio styles */
+    
+    #portfolioContainer{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+  /* About Me image style on screens less than 540px -------------------------------------------------- */
+
+  @media screen and (max-width: 540px) {
+
+    #aboutMeImage {
+        margin: 0.2rem 1rem 1rem 0; 
+        width: 100%;
+    
+    }
+
+    #portfolioContainer{
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+
+}
+
