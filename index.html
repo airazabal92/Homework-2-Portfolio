@@ -16,9 +16,27 @@
 
 <body> 
 
-    <!-- Navigation Bar -->
+   
+    <nav class="navbar navbar-expand navbar-light bg-light ml-0">
+        <h1 id="navHeaderTitle">Amanda Irazabal</h1>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-5" href="contact.html">Contact</a>
+                </li>
+            </ul>
+    </nav>
+
+
+    <!--
     <nav class="navbar navbar-expand-lg navbar-light bg-light ml-0">
-        <h1 class="ml-5 py-3">Amanda Irazabal</h1>
+        <h1 id="navHeaderTitle">Amanda Irazabal</h1>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationData" aria-controls="navigationData" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,21 +57,52 @@
         </div>
     </nav>
 
+-->
+
+<!--
+<nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1">Navbar</span>
+
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+  </nav>
+
+-->
+
+
     <main role="main">
 
         <!-- About me section -->
+
+       <div id="aboutMeContainer">
         
-        <div class="card ml-5 mt-5 w-75" id="aboutMe">
+        <div class="card" id="aboutMeCard">
             <div class="card-body">
                 <h2 class="card-title">About Me</h2>
                 <hr>
-                <img src="http://via.placeholder.com/400x120"  class="float-left mr-3 img-fluid w-50" alt="...">
+                <img src="http://via.placeholder.com/400x120"  alt="..." id="aboutMeImage">
                         
                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est ut nam eius laudantium incidunt dolores commodi fugit cumque natus amet quod neque, similique quos, provident perferendis repellat quidem, quis eaque.</p>
             
                 <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est ut nam eius laudantium incidunt dolores commodi fugit cumque natus amet quod neque, similique quos, provident perferendis repellat quidem, quis eaque.</p>
             </div>
         </div>
+
+    </div>
+
+
     </main>
 
     <!-- Footer -->
