@@ -1,40 +1,80 @@
 /* Header Styling 
 ------------------------------------------------- */
 
-#navHeaderTitle{
-    font-size: 1.75rem;
-    margin-left: 3rem;
-    padding: 1rem 0;
+h2 {
+  font-size: 1.6rem;
+  color: gray;
+  font-family: 'Muli', sans-serif;
+  font-weight: 700; 
 }
 
-h2{
-    font-size: 1.50rem;
+/* Paragraph
+------------------------------------------------- */
+p{
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+}
+
+/* Navbar link styling
+------------------------------------------------- */
+
+nav a{
+  color: #D45553;
+}
+
+nav a:hover{
+  color: teal;
+  font-weight: 350;
+  text-decoration: none;
+}
+
+/* Body styling */
+
+body{
+  background-image: url('https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  
+}
+
+/* Navigation bar header Styling 
+------------------------------------------------- */
+
+#headerName{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 900; 
+  color: teal;
 }
 
 /* About & Contact Me card styles 
 ------------------------------------------------- */
 
 #aboutMeContainer, #contactMeContainer {
-    width: 65%;
+  width: 65%;
 }
 
-#aboutMeCard, #contactMeCard{
+#aboutMeCard, #contactMeCard {
   margin: 3rem 0 0 4rem;
 }
 
-/* About Me image 
+/* About Me image & icon
 ------------------------------------------------- */
 
 #aboutMeImage {
-    float: left;
-    margin: 0.2rem 1rem 0 0; 
-    width: 50%;
+  float: left;
+  margin: 0.2rem 1rem 0 0; 
+  width: 30%;
+}
 
+#aboutIcon {
+  color: teal;
 }
 
 /* Portfolio container
 ------------------------------------------------- */
-#portfolioContainer{
+#portfolioContainer {
     background-color:green;
     width: 65%;
     margin: 3rem 0 5rem 4rem;    
@@ -42,7 +82,7 @@ h2{
 
 /* Portfolio images */
 
-.portfolioImages div{
+.portfolioImages div {
     height: 60px;
     background-color: red;
     margin-top: 30%;
@@ -51,26 +91,28 @@ h2{
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-    position: relative;
-    min-height: 100%;
-  }
-  body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
-  }
-  .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-    line-height: 60px; /* Vertically center the text there */
-    background-color: blue;
-    text-align: center;
-    font-size: 0.75rem;
-  }
-
+  position: relative;
+  min-height: 100%;
+}
   
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: teal;
+  text-align: center;
+  font-size: 0.75rem;
+  color: white;
+}
 
 
 /* Styles on screens less than 768px -------------------------------------------------- */
@@ -79,48 +121,43 @@ html {
 
     /* Header Title style */
 
-    #navHeaderTitle{
-        font-size: 1.75rem;
-        margin-left: 1rem;
-        padding: 1rem 0;
+    #navHeaderTitle {
+      font-size: 1.75rem;
+      margin-left: 1rem;
+      padding: 1rem 0;
     }
 
     /* About & Contact Me styles */
 
     #aboutMeContainer, #contactMeContainer {
-        width: 100%;
-      }
+      width: 100%;
+    }
 
-      #aboutMeCard, #contactMeCard { 
-          margin: 3rem 2rem 0 2rem;
-      } 
+    #aboutMeCard, #contactMeCard { 
+      margin: 3rem 2rem 0 2rem;
+    } 
       
     /* Portfolio styles */
     
     #portfolioContainer{
-        width: 100%;
-        margin: 0;
+        width: auto;
+        margin: 0 50px 0 50px;
+        
     }
 }
-
 
   /* About Me image style on screens less than 540px -------------------------------------------------- */
 
   @media screen and (max-width: 540px) {
 
     #aboutMeImage {
-        margin: 0.2rem 1rem 1rem 0; 
-        width: 100%;
-    
+      margin: 0.2rem 1rem 1rem 0; 
+      width: 100%;
     }
 
-    #portfolioContainer{
-        width: 100%;
-        margin: 0;
+    #portfolioContainer {
+      width: auto;
+      margin: 0 50px 0 50px;
     }
-
-
-
-
 }
 
