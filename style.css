@@ -1,3 +1,21 @@
+/* Body styling 
+------------------------------------------------- */
+
+body{
+  background-image: url('https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  
+}
+
+/* Font-awesome icon style
+------------------------------------------------- */
+
+#iconColor {
+  color: teal;
+}
+
 /* Header Styling 
 ------------------------------------------------- */
 
@@ -8,7 +26,7 @@ h2 {
   font-weight: 700; 
 }
 
-/* Paragraph
+/* Paragraph styling
 ------------------------------------------------- */
 p{
   font-size: 0.85rem;
@@ -28,16 +46,6 @@ nav a:hover{
   text-decoration: none;
 }
 
-/* Body styling */
-
-body{
-  background-image: url('https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  
-}
-
 /* Navigation bar header Styling 
 ------------------------------------------------- */
 
@@ -52,14 +60,14 @@ body{
 ------------------------------------------------- */
 
 #aboutMeContainer, #contactMeContainer {
-  width: 65%;
+  width: 70%;
 }
 
 #aboutMeCard, #contactMeCard {
   margin: 3rem 0 0 4rem;
 }
 
-/* About Me image & icon
+/* About Me image style
 ------------------------------------------------- */
 
 #aboutMeImage {
@@ -68,24 +76,23 @@ body{
   width: 30%;
 }
 
-#iconColor {
-  color: teal;
-}
 
-/* Portfolio container
+/* Portfolio container styles
 ------------------------------------------------- */
 #portfolioContainer {
-    background-color:green;
     width: 65%;
     margin: 3rem 0 5rem 4rem;    
+    padding: 1.5rem;
 }
 
-/* Portfolio images */
+/* Portfolio images styles
+------------------------------------------------- */
 
 .portfolioImages div {
     height: 60px;
-    background-color: red;
-    margin-top: 30%;
+    background-color: teal;
+    margin-top: 45%;
+    opacity: 0.85;
 }
 
 /* Sticky footer styles
